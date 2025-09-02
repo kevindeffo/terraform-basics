@@ -32,3 +32,9 @@ variable "instance_name" {
   description = "Name tag for the EC2 instance"
   type        = string
 }
+
+variable "bucket_name_prefix" {
+  description = "Prefix for S3 bucket name"
+  type        = string
+  default     = "terraform-kevin"
+}
